@@ -106,7 +106,7 @@ def send_mail(FILE):
 
         if FILE not in sent: 
             if Ext2 in extensions:
-                if size_archivo <= size_limit: 
+                if size_file <= size_limit: 
 
                     sent.append(FILE)
 
