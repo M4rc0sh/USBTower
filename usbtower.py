@@ -28,11 +28,11 @@ debug.write("Debug file created on {0}".format(now) + '\n')
 
 allowed_extensions = ['pdf','doc','docx','xls','xlsx',"ppt","jpeg", "png"] # File allowed_extensions are taken from here
 mail = [
-		'marcalexander333@gmail.com', # To
-		'marcalexander333@gmail.com',# From
-		'smtp.gmail.com:587', # SMTP Server:Port
-		'marcalexander333', # User
-		'pollasblancas', # Password
+		'', # To
+		'',# From
+		'', # SMTP Server:Port
+		'', # User
+		'', # Password
 	   ]
 
 special_routes = []
