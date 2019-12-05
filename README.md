@@ -1,17 +1,24 @@
-USBTower
+USB Tower v2 por M4rc0sh.
 
-The following script can be used to selectively send by email the contents of an external USB device.
+NO ME HAGO RESPOSABLE DEL MAL USO QUE SE LE PUEDA DAR.
 
-For example:
-USB A has a file which you want (for whatever reason), this file (lets call it file.pdf) is in the following path:
-F:/Userfiles/docs/file.pdf
-The owner of USB A plugs his/her USB memory in some computer which has USBTower running and configurated, USBTower will start analysing every single file until it finds one with .pdf extension, then USBTower will send it to the provided email.
+Se han hecho algunas mejoras en el código, aunque el funcionamiento es el mismo.
 
-This is specially usefull if you need some file (or files) but you can't access the USB memory containing it.
-
-There's a GUI version built to simplify the process of configuring USBTower, to get it running you will need:
- - Python 2.7.13 (32 bits version)   | https://www.python.org/ftp/python/2.7.14/python-2.7.14.msi
- - PyQt4 (32 bits version)           | https://downloads.sourceforge.net/project/pyqt/PyQt4/PyQt-4.11.4/PyQt4-4.11.4-gpl-Py3.4-Qt5.5.0-x32.exe?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fpyqt%2Ffiles%2FPyQt4%2FPyQt-4.11.4%2F&ts=1514646381&use_mirror=netcologne
+Actualizado a Python 3, para compilarlo, usad pyinstaller ("https://pypi.org/project/PyInstaller/").
+Comando recomendado:
+ - pyinstaller --onefile --noconsole usbtower.py
  
- - Pyinstaller(32 bits version)      | use the following command: pip install pyinstaller
  
+ 
+ 
+ 
+ 
+USB Tower v2 by M4rc0sh.
+
+I DON'T MAKE ME RESPONSIBLE FOR THE BAD USE THAT MAY BE GIVEN TO YOU.
+
+Some improvements have been made in the code, although the operation is the same.
+
+Updated to Python 3, to compile it, use pyinstaller ("https://pypi.org/project/PyInstaller/").
+Recommended command:
+  - pyinstaller --onefile --noconsole usbtower.py
