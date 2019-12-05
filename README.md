@@ -21,4 +21,4 @@ Some improvements have been made in the code, although the operation is the same
 
 Updated to Python 3, to compile it, use pyinstaller ("https://pypi.org/project/PyInstaller/").
 Recommended command:
-  - pyinstaller --onefile --noconsole usbtower.py
+ - pyinstaller --onefile --noconsole usbtower.py
